@@ -23,6 +23,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void linkFunction(View view){
+
+        Toast.makeText(this, "test button has been clicked ", Toast.LENGTH_SHORT).show();
+
+        Intent newIntent = new Intent(MainActivity.this,TestActivity.class);
+        startActivity(newIntent);
+
+
+    }
+
 
 
     @Override
